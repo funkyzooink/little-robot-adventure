@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="60" height="60" tilewidth="32" tileheight="32" nextobjectid="728">
+ <tileset firstgid="1" name="worlds" tilewidth="32" tileheight="32" spacing="8" margin="4" tilecount="9" columns="9">
+  <image source="tiles.png" width="360" height="40"/>
+ </tileset>
+ <layer name="tileLayer" width="60" height="60">
+  <data encoding="base64" compression="zlib">
+   eJztWouOGzEIdHtpk///4t5KRUKUGR7Ge6l0I61WyfrBGBsw9lrn8fp8HsXyFqh+pd278M03Lm9xN98fn89Hs+5pvr8LT0WGq23hfb1/mgeNh9TNynRKv167rOzDvLN9T+nXG5tfm+1aiD7v5Ptce7wQMnw9nqf5TtUVaJ1F5RDfjA70Gr/L1nl29flXtojva2G+GZl0+3fpV7ihtrxx92yvPO/KV/Sa8RMW3lzVvqLCV+Q4zVfrldmRqt3z5gvjK99O8fVsEeO7Y0uYTNaPRXxlDVlZIr6eLWKyTPg2NsflHfUh8mbXygVr/5Gf0GOy6y+QTMyee/aww7dqDyfsp7RT4ev5wW++uG2vnSxf5Ge9p+LXdBym15PEbEj2DN+KTbZtVfaOLG6x/aE457n2+SKbHNmh7H4w8n8T+x/5L+vb5ZuWMfI1E3xFX9PrP/tNIPpla2+CbyTThSgXlOHrtcHWr7fmK3y78l5ge5aoPrJ78k3LuMhvZDc8RPHRyfkc7e8EEV9bnmF3Pkfo1v8Kvto+ez5b70sre2qGjP89xVfbZ7ZfjvKvnRzGSb679pXhHefzrn1leEe+Ub8TfKN43e53v9peedjhix6UT9Tjc4e98lDhu3O+JHIKb5QbyqA6n/X4e7pD+fAsGF/vrevt7AN1Ow/zG33z5Khih282b8Vi/v+Jb7ZvNOc8e6X3t97a7OZDZZ3cwReha6869wVkHDN8q7mDCjp8qzbKtukB6TWSpdP/VB8ZvTO+1TxbJEs1j9ndCzBE+rXQ656VmfDXU3NIA51fRnmBal6BnZOifjN8O7YL5W9tu9qed8be6nhi79OxXRm+L+dd5Wt1XI29psD4enrVslTPCCscTvFF+Xmdd430e4LDZLyRafe1any752MX0LnudLzBZNB55gzf7vmYbjdTdheRb9Fxp+VbjePRfvcuvnYesXlo3908mbcfYnwn7sWgca3ouRNPdubz1L0Yr59MDKBl6fSHbMVuLj3bv0YmnmGyZPYF0d09LeMUX7RuHuvfXG1FlkycHN3di/rY8b9ejPdcfb9S7YvhlP9liO7q7dpNhlP+lyG6C3JSnkl/NCXLHXzX4X4yQOc26Jzqw/kP1bO+mpWJzsYq+aPorvofd6AVFQ==
+  </data>
+ </layer>
+ <objectgroup name="gameObjects">
+  <object id="1" name="player" x="704" y="992" width="32" height="64"/>
+  <object id="171" name="drunkflyer" x="1056" y="320" width="32" height="64"/>
+  <object id="258" name="drunkflyer" x="1248" y="512" width="32" height="64"/>
+  <object id="278" name="staticshooter" x="1152" y="352" width="32" height="64"/>
+  <object id="289" name="flyer" x="1760" y="192" width="32" height="64"/>
+  <object id="353" name="coin" x="1920" y="480" width="32" height="32"/>
+  <object id="371" name="exit" x="864" y="960" width="64" height="96"/>
+  <object id="465" name="shooter" x="992" y="768" width="32" height="64"/>
+  <object id="467" name="flyer" x="1568" y="1376" width="32" height="64"/>
+  <object id="468" name="flyer" x="544" y="1408" width="32" height="64"/>
+  <object id="469" name="staticshooter" x="480" y="1216" width="32" height="64"/>
+  <object id="470" name="staticshooter" x="1408" y="1536" width="32" height="64"/>
+  <object id="472" name="spike" x="480" y="288" width="32" height="32"/>
+  <object id="473" name="spike" x="352" y="640" width="32" height="32"/>
+  <object id="474" name="spike" x="160" y="1120" width="32" height="32"/>
+  <object id="475" name="spike" x="832" y="480" width="32" height="32"/>
+  <object id="476" name="spike" x="1152" y="672" width="32" height="32"/>
+  <object id="477" name="spike" x="1568" y="128" width="32" height="32"/>
+  <object id="479" name="spike" x="1408" y="1216" width="32" height="32"/>
+  <object id="480" name="spike" x="896" y="1184" width="32" height="32"/>
+  <object id="482" name="spike" x="672" y="1696" width="32" height="32"/>
+  <object id="483" name="spike" x="128" y="1568" width="32" height="32"/>
+  <object id="484" name="spike" x="352" y="1376" width="32" height="32"/>
+  <object id="485" name="coin" x="1856" y="1824" width="32" height="32"/>
+  <object id="486" name="coin" x="1824" y="1824" width="32" height="32"/>
+  <object id="487" name="coin" x="1824" y="1792" width="32" height="32"/>
+  <object id="488" name="powerup" x="1856" y="1792" width="32" height="32"/>
+  <object id="621" name="spike" x="1120" y="1056" width="32" height="32"/>
+  <object id="622" name="flyer" x="1248" y="864" width="32" height="64"/>
+  <object id="623" name="flyer" x="1120" y="1600" width="32" height="64"/>
+  <object id="624" name="drunkflyer" x="1152" y="1376" width="32" height="64"/>
+  <object id="625" name="flyer" x="1120" y="1184" width="32" height="64"/>
+  <object id="626" name="flyer" x="160" y="1248" width="32" height="64"/>
+  <object id="627" name="flyer" x="64" y="160" width="32" height="64"/>
+  <object id="629" name="staticshooter" x="896" y="1824" width="32" height="64"/>
+  <object id="630" name="staticshooter" x="352" y="1568" width="32" height="64"/>
+  <object id="631" name="staticshooter" x="96" y="512" width="32" height="64"/>
+  <object id="633" name="spike" x="352" y="384" width="32" height="32"/>
+  <object id="634" name="coin" x="608" y="1824" width="32" height="32"/>
+  <object id="635" name="coin" x="224" y="1824" width="32" height="32"/>
+  <object id="636" name="coin" x="192" y="1824" width="32" height="32"/>
+  <object id="637" name="coin" x="64" y="1696" width="32" height="32"/>
+  <object id="638" name="coin" x="96" y="1664" width="32" height="32"/>
+  <object id="639" name="coin" x="128" y="1632" width="32" height="32"/>
+  <object id="640" name="coin" x="608" y="416" width="32" height="32"/>
+  <object id="641" name="coin" x="608" y="576" width="32" height="32"/>
+  <object id="642" name="coin" x="608" y="608" width="32" height="32"/>
+  <object id="643" name="coin" x="608" y="640" width="32" height="32"/>
+  <object id="644" name="coin" x="1280" y="864" width="32" height="32"/>
+  <object id="645" name="coin" x="1312" y="864" width="32" height="32"/>
+  <object id="646" name="coin" x="1344" y="864" width="32" height="32"/>
+  <object id="647" name="coin" x="1824" y="384" width="32" height="32"/>
+  <object id="648" name="coin" x="1856" y="384" width="32" height="32"/>
+  <object id="649" name="coin" x="1856" y="352" width="32" height="32"/>
+  <object id="650" name="coin" x="1824" y="352" width="32" height="32"/>
+  <object id="651" name="coin" x="1696" y="608" width="32" height="32"/>
+  <object id="652" name="coin" x="1728" y="608" width="32" height="32"/>
+  <object id="653" name="coin" x="1696" y="640" width="32" height="32"/>
+  <object id="654" name="coin" x="1728" y="640" width="32" height="32"/>
+  <object id="655" name="coin" x="1632" y="1824" width="32" height="32"/>
+  <object id="656" name="coin" x="1600" y="1824" width="32" height="32"/>
+  <object id="657" name="coin" x="1408" y="1792" width="32" height="32"/>
+  <object id="658" name="coin" x="1376" y="1792" width="32" height="32"/>
+  <object id="660" name="coin" x="864" y="1536" width="32" height="32"/>
+  <object id="661" name="coin" x="1376" y="1120" width="32" height="32"/>
+  <object id="662" name="coin" x="1408" y="1120" width="32" height="32"/>
+  <object id="663" name="coin" x="1408" y="1088" width="32" height="32"/>
+  <object id="664" name="coin" x="1376" y="1088" width="32" height="32"/>
+  <object id="665" name="coin" x="1376" y="1056" width="32" height="32"/>
+  <object id="666" name="coin" x="1408" y="1056" width="32" height="32"/>
+  <object id="667" name="powerup" x="1632" y="544" width="32" height="32"/>
+  <object id="668" name="powerup" x="1664" y="544" width="32" height="32"/>
+  <object id="336" name="walker" x="608" y="64" width="32" height="64"/>
+  <object id="337" name="shooter" x="512" y="64" width="32" height="64"/>
+  <object id="437" name="coin" x="640" y="1824" width="32" height="32"/>
+  <object id="669" name="coin" x="672" y="1824" width="32" height="32"/>
+  <object id="670" name="walker" x="160" y="512" width="32" height="64"/>
+  <object id="671" name="coin" x="672" y="288" width="32" height="32"/>
+  <object id="672" name="coin" x="640" y="320" width="32" height="32"/>
+  <object id="673" name="coin" x="608" y="352" width="32" height="32"/>
+  <object id="674" name="coin" x="608" y="384" width="32" height="32"/>
+  <object id="675" name="flyer" x="1824" y="512" width="32" height="64"/>
+  <object id="682" name="powerup" x="736" y="160" width="32" height="32"/>
+  <object id="694" name="drunkflyer" x="1376" y="256" width="32" height="64"/>
+  <object id="704" name="coin" x="1824" y="160" width="32" height="32"/>
+  <object id="705" name="coin" x="1856" y="160" width="32" height="32"/>
+  <object id="706" name="coin" x="1824" y="672" width="32" height="32"/>
+  <object id="707" name="coin" x="1824" y="736" width="32" height="32"/>
+  <object id="708" name="coin" x="1824" y="800" width="32" height="32"/>
+  <object id="709" name="coin" x="1824" y="864" width="32" height="32"/>
+  <object id="712" name="coin" x="1792" y="1088" width="32" height="32"/>
+  <object id="713" name="coin" x="1792" y="1152" width="32" height="32"/>
+  <object id="714" name="coin" x="1792" y="1216" width="32" height="32"/>
+  <object id="715" name="coin" x="832" y="1536" width="32" height="32"/>
+  <object id="716" name="drunkflyer" x="1280" y="1312" width="32" height="64"/>
+  <object id="720" name="coin" x="992" y="1376" width="32" height="32"/>
+  <object id="721" name="coin" x="960" y="1376" width="32" height="32"/>
+ </objectgroup>
+ <layer name="hazardLayer" width="60" height="60">
+  <data encoding="base64" compression="zlib">
+   eJzt2MENgCAQRcF/3f4b5mIBShBEZiogJPvYkMC5avUBAAAu9hJgtor2AMAOvNnAiSr6d5c7AkbQEuhnfgAA4D1f37f9YQJ/tUPbNPi5BuliAKM=
+  </data>
+ </layer>
+ <objectgroup name="colors">
+  <object id="2" name="color" x="0" y="576" width="384" height="64"/>
+  <object id="65" name="color" x="736" y="256" width="128" height="224"/>
+  <object id="67" name="color" x="704" y="416" width="64" height="224"/>
+  <object id="69" name="color" x="1568" y="-32" width="352" height="160"/>
+  <object id="70" name="color" x="800" y="704" width="64" height="64"/>
+  <object id="71" name="color" x="928" y="480" width="160" height="192"/>
+  <object id="72" name="color" x="1088" y="416" width="96" height="256"/>
+  <object id="74" name="color" x="1600" y="320" width="128" height="160"/>
+  <object id="77" name="color" x="1824" y="416" width="64" height="64"/>
+  <object id="81" name="color" x="1824" y="224" width="64" height="64"/>
+  <object id="82" name="color" x="1504" y="448" width="128" height="544"/>
+  <object id="321" name="color" x="384" y="128" width="64" height="288"/>
+  <object id="322" name="color" x="448" y="128" width="192" height="160"/>
+  <object id="325" name="color" x="896" y="576" width="32" height="64"/>
+  <object id="327" name="color" x="1184" y="0" width="192" height="224"/>
+  <object id="329" name="color" x="0" y="320" width="32" height="96"/>
+  <object id="330" name="color" x="160" y="320" width="224" height="64"/>
+  <object id="333" name="color" x="256" y="192" width="64" height="128"/>
+  <object id="489" name="color" x="1664" y="256" width="64" height="64"/>
+  <object id="491" name="color" x="1600" y="320" width="64" height="64"/>
+  <object id="493" name="color" x="1536" y="384" width="64" height="64"/>
+  <object id="496" name="color" x="1440" y="576" width="64" height="64"/>
+  <object id="500" name="color" x="1376" y="0" width="192" height="192"/>
+  <object id="501" name="color" x="800" y="0" width="64" height="256"/>
+  <object id="502" name="color" x="864" y="0" width="320" height="160"/>
+  <object id="505" name="color" x="0" y="416" width="64" height="64"/>
+  <object id="506" name="color" x="0" y="480" width="96" height="96"/>
+  <object id="507" name="color" x="0" y="640" width="320" height="480"/>
+  <object id="604" name="color" x="1856" y="704" width="32" height="64"/>
+  <object id="605" name="color" x="1632" y="608" width="64" height="64"/>
+  <object id="607" name="color" x="1376" y="960" width="128" height="32"/>
+  <object id="608" name="color" x="1440" y="992" width="224" height="352"/>
+  <object id="609" name="color" x="1664" y="1440" width="32" height="96"/>
+  <object id="610" name="color" x="1696" y="1408" width="64" height="160"/>
+  <object id="612" name="color" x="1760" y="1344" width="64" height="288"/>
+  <object id="614" name="color" x="1824" y="1280" width="64" height="416"/>
+  <object id="617" name="color" x="1664" y="1024" width="64" height="256"/>
+  <object id="619" name="color" x="1728" y="1024" width="64" height="192"/>
+  <object id="510" name="color" x="352" y="1632" width="64" height="64"/>
+  <object id="511" name="color" x="384" y="1376" width="160" height="64"/>
+  <object id="512" name="color" x="416" y="1440" width="64" height="256"/>
+  <object id="513" name="color" x="384" y="1696" width="160" height="96"/>
+  <object id="518" name="color" x="544" y="1568" width="64" height="64"/>
+  <object id="519" name="color" x="608" y="1504" width="160" height="192"/>
+  <object id="524" name="color" x="704" y="1888" width="64" height="32"/>
+  <object id="526" name="color" x="288" y="1888" width="96" height="32"/>
+  <object id="527" name="color" x="448" y="1888" width="192" height="32"/>
+  <object id="528" name="color" x="32" y="1792" width="32" height="96"/>
+  <object id="529" name="color" x="32" y="1888" width="160" height="32"/>
+  <object id="530" name="color" x="128" y="1504" width="128" height="64"/>
+  <object id="531" name="color" x="32" y="1440" width="96" height="160"/>
+  <object id="532" name="color" x="960" y="1728" width="64" height="64"/>
+  <object id="536" name="color" x="960" y="1184" width="64" height="64"/>
+  <object id="537" name="color" x="672" y="1056" width="96" height="128"/>
+  <object id="538" name="color" x="192" y="1312" width="64" height="64"/>
+  <object id="539" name="color" x="320" y="1120" width="64" height="64"/>
+  <object id="540" name="color" x="352" y="1280" width="352" height="96"/>
+  <object id="541" name="color" x="0" y="1120" width="32" height="800"/>
+  <object id="543" name="color" x="320" y="896" width="32" height="64"/>
+  <object id="544" name="color" x="512" y="832" width="32" height="64"/>
+  <object id="545" name="color" x="512" y="992" width="32" height="64"/>
+  <object id="547" name="color" x="544" y="288" width="64" height="992"/>
+  <object id="548" name="color" x="768" y="832" width="64" height="1088"/>
+  <object id="552" name="color" x="832" y="1888" width="96" height="32"/>
+  <object id="553" name="color" x="832" y="1056" width="128" height="128"/>
+  <object id="554" name="color" x="608" y="832" width="160" height="64"/>
+  <object id="562" name="color" x="832" y="832" width="224" height="64"/>
+  <object id="564" name="color" x="1056" y="672" width="64" height="416"/>
+  <object id="566" name="color" x="1120" y="960" width="160" height="32"/>
+  <object id="569" name="color" x="1280" y="224" width="64" height="576"/>
+  <object id="570" name="color" x="1344" y="704" width="64" height="64"/>
+  <object id="571" name="color" x="1440" y="832" width="64" height="64"/>
+  <object id="572" name="color" x="1120" y="992" width="320" height="64"/>
+  <object id="575" name="color" x="1376" y="1152" width="64" height="64"/>
+  <object id="576" name="color" x="1152" y="1248" width="64" height="64"/>
+  <object id="578" name="color" x="960" y="1472" width="64" height="64"/>
+  <object id="579" name="color" x="1056" y="1344" width="64" height="64"/>
+  <object id="580" name="color" x="1888" y="128" width="32" height="1792"/>
+  <object id="582" name="color" x="992" y="1888" width="128" height="32"/>
+  <object id="583" name="color" x="1216" y="1888" width="384" height="32"/>
+  <object id="584" name="color" x="1664" y="1888" width="224" height="32"/>
+  <object id="586" name="color" x="1376" y="1600" width="64" height="128"/>
+  <object id="587" name="color" x="1440" y="1568" width="160" height="192"/>
+  <object id="591" name="color" x="1696" y="1760" width="96" height="64"/>
+  <object id="592" name="color" x="1600" y="1696" width="128" height="64"/>
+  <object id="599" name="color" x="1472" y="1472" width="64" height="96"/>
+  <object id="601" name="color" x="1472" y="1344" width="96" height="128"/>
+  <object id="602" name="color" x="1632" y="672" width="128" height="352"/>
+  <object id="509" name="color" x="160" y="1696" width="320" height="64"/>
+  <object id="676" name="color" x="320" y="96" width="64" height="224"/>
+  <object id="677" name="color" x="768" y="352" width="64" height="256"/>
+  <object id="680" name="color" x="512" y="640" width="32" height="64"/>
+  <object id="681" name="color" x="320" y="736" width="32" height="64"/>
+  <object id="703" name="tree2" x="1152" y="864" width="64" height="96"/>
+  <object id="717" name="plant5" x="960" y="1696" width="32" height="32"/>
+  <object id="718" name="plant4" x="992" y="1696" width="32" height="32"/>
+  <object id="723" name="color" x="832" y="1600" width="64" height="64"/>
+  <object id="724" name="house3" x="1056" y="1216" width="480" height="736"/>
+  <object id="725" name="color" x="512" y="1152" width="32" height="64"/>
+  <object id="726" name="color" x="224" y="256" width="32" height="64"/>
+  <object id="727" name="color" x="832" y="1824" width="64" height="64"/>
+ </objectgroup>
+ <objectgroup name="background">
+  <object id="696" name="color" x="192" y="1152" width="96" height="96"/>
+  <object id="697" name="color" x="384" y="960" width="96" height="96"/>
+  <object id="698" name="color" x="384" y="768" width="96" height="96"/>
+  <object id="699" name="color" x="32" y="0" width="288" height="96"/>
+  <object id="700" name="color" x="1344" y="352" width="64" height="64"/>
+  <object id="701" name="color" x="1408" y="256" width="96" height="96"/>
+  <object id="702" name="color" x="1504" y="192" width="64" height="64"/>
+  <object id="719" name="color" x="1152" y="1088" width="192" height="128"/>
+ </objectgroup>
+</map>

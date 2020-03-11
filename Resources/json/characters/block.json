@@ -1,0 +1,33 @@
+{
+    "spike": {
+        "x_speed": 0,
+        "y_speed": 25,
+        "can_attack": true,
+        "animations": {
+            "idle_left": [
+                "ig_missile2.png"
+            ],
+            "idle_right": [
+                "ig_missile2.png"
+            ],
+            "jump_left_down": [
+                "ig_missile2.png"
+            ],
+            "jump_left_up": [
+                "ig_missile2.png"
+            ],
+            "jump_right_down": [
+                "ig_missile2.png"
+            ],
+            "jump_right_up": [
+                "ig_missile2.png"
+            ],
+            "walk_left": [
+                "ig_missile2.png"
+            ],
+            "walk_right": [
+                "ig_missile2.png"
+            ]
+        }
+    }
+}

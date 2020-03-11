@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="200" height="20" tilewidth="16" tileheight="16" nextobjectid="228">
+    <tileset firstgid="1" name="worlds" tilewidth="16" tileheight="16" spacing="4" margin="2" tilecount="9" columns="9">
+        <image source="tiles.png" width="180" height="20"/>
+    </tileset>
+    <layer name="tileLayer" width="200" height="20">
+        <data encoding="base64" compression="zlib">eJztmttygzAMRGmTtvz/Fzc8eOJuZF2wIKbeM+NpA6ZWkFYSpstCCCGEEEIIIYQQ8r/5eIxPGLe3WkRIPlKce+L95zG+YXwdaikh57Mq5+6nWTEWW85gLSQb1McrW21kLXwycy8t9UlX7ZfQj7P48GikHHpk7mz1/FfwZ237aPaiH7N9WL47fm/sx3o/a2tFbcvgbH20epor9DN1vcmsLxm6w1qYXf+K39BPKxzDz9ivWfO1tTy2ZWtlZH309gzZ+R79lvUsW9+TkfJEff+8+rCeXyy9lGNlrZb/Wra19iP3xsHI+ujtGXriTuoDMUaynmWPqku9rMLveB9774F0vbRWS0OabRLRODhjL197z6DpWtOHpza09OGpwZKOW3648p6o9Dwg+SXa8/Qwkj7OQNtHLUjxq+nDin30ca35khM03Ub08e49USv/WHmgdV+X6hz1ESPS20f1scJPbY52XDrvtSuij4KVizP7YsvWGqne1Xmg9O034W9RH/uI9Paz6APriPZ+BYf3f12kXi6qD4yt+/Lsq2fQRyRv7c1tGJ/aNbPoowfvu3xtv8dzPc6fsb+K5C3PkHprq35YMeuZT328rkd9/J2D8z2x/AtpQAli</data>
+    </layer>
+    <objectgroup name="gameObjects">
+        <object id="1" name="player" x="32" y="256" width="16" height="32"/>
+        <object id="2" name="walker" x="288" y="256" width="16" height="32"/>
+        <object id="3" name="staticshooter" x="688" y="128" width="16" height="32"/>
+        <object id="4" name="walker" x="160" y="256" width="16" height="32"/>
+        <object id="5" name="staticshooter" x="864" y="160" width="16" height="32"/>
+        <object id="7" name="jumper" x="1856" y="240" width="16" height="32"/>
+        <object id="10" name="jumper" x="2416" y="128" width="16" height="32"/>
+        <object id="11" name="staticshooter" x="2848" y="128" width="16" height="32"/>
+        <object id="13" name="flyer" x="1472" y="176" width="16" height="32"/>
+        <object id="14" name="flyer" x="1696" y="192" width="16" height="32"/>
+        <object id="15" name="staticshooter" x="2064" y="208" width="16" height="32"/>
+        <object id="16" name="staticshooter" x="2304" y="192" width="16" height="32"/>
+        <object id="17" name="staticshooter" x="2496" y="128" width="16" height="32"/>
+        <object id="21" name="powerup" x="1664" y="224" width="16" height="16"/>
+        <object id="24" name="exit" x="3168" y="144" width="32" height="48"/>
+        <object id="72" name="coin" x="2064" y="208" width="16" height="16"/>
+        <object id="73" name="coin" x="2048" y="208" width="16" height="16"/>
+        <object id="96" name="coin" x="1024" y="192" width="16" height="16"/>
+        <object id="97" name="coin" x="1040" y="208" width="16" height="16"/>
+        <object id="98" name="coin" x="1024" y="224" width="16" height="16"/>
+        <object id="99" name="coin" x="1008" y="208" width="16" height="16"/>
+        <object id="108" name="coin" x="1216" y="64" width="16" height="16"/>
+        <object id="109" name="coin" x="1232" y="64" width="16" height="16"/>
+        <object id="110" name="coin" x="1248" y="64" width="16" height="16"/>
+        <object id="111" name="coin" x="1264" y="64" width="16" height="16"/>
+        <object id="112" name="staticshooter" x="1280" y="64" width="16" height="32"/>
+        <object id="137" name="jumper" x="3152" y="160" width="16" height="32"/>
+        <object id="138" name="staticshooter" x="2976" y="160" width="16" height="32"/>
+        <object id="143" name="coin" x="2288" y="80" width="16" height="16"/>
+        <object id="145" name="coin" x="2304" y="80" width="16" height="16"/>
+        <object id="146" name="coin" x="2528" y="128" width="16" height="16"/>
+        <object id="147" name="coin" x="2512" y="128" width="16" height="16"/>
+        <object id="148" name="coin" x="2640" y="128" width="16" height="16"/>
+        <object id="149" name="coin" x="2656" y="128" width="16" height="16"/>
+        <object id="150" name="coin" x="2576" y="128" width="16" height="16"/>
+        <object id="151" name="coin" x="2592" y="128" width="16" height="16"/>
+        <object id="153" name="coin" x="2704" y="128" width="16" height="16"/>
+        <object id="154" name="coin" x="2720" y="128" width="16" height="16"/>
+        <object id="159" name="coin" x="2896" y="160" width="16" height="16"/>
+        <object id="160" name="coin" x="2928" y="144" width="16" height="16"/>
+        <object id="161" name="coin" x="2912" y="144" width="16" height="16"/>
+        <object id="162" name="coin" x="2944" y="144" width="16" height="16"/>
+        <object id="163" name="coin" x="2960" y="160" width="16" height="16"/>
+        <object id="113" name="coin" x="1424" y="48" width="16" height="16"/>
+        <object id="114" name="coin" x="1440" y="48" width="16" height="16"/>
+        <object id="115" name="coin" x="1408" y="48" width="16" height="16"/>
+        <object id="116" name="coin" x="1504" y="192" width="16" height="16"/>
+        <object id="117" name="coin" x="1440" y="128" width="16" height="16"/>
+        <object id="118" name="coin" x="1472" y="160" width="16" height="16"/>
+        <object id="119" name="coin" x="1456" y="48" width="16" height="16"/>
+        <object id="120" name="coin" x="1472" y="48" width="16" height="16"/>
+        <object id="121" name="coin" x="1488" y="48" width="16" height="16"/>
+        <object id="124" name="coin" x="2000" y="112" width="16" height="16"/>
+        <object id="125" name="coin" x="2016" y="112" width="16" height="16"/>
+        <object id="126" name="coin" x="2032" y="112" width="16" height="16"/>
+        <object id="127" name="coin" x="2048" y="112" width="16" height="16"/>
+        <object id="128" name="coin" x="2064" y="112" width="16" height="16"/>
+        <object id="129" name="coin" x="2000" y="208" width="16" height="16"/>
+        <object id="130" name="coin" x="2016" y="208" width="16" height="16"/>
+        <object id="131" name="coin" x="2032" y="208" width="16" height="16"/>
+        <object id="194" name="staticshooter" x="1344" y="176" width="16" height="32"/>
+        <object id="195" name="staticshooter" x="2048" y="112" width="16" height="32"/>
+        <object id="196" name="flyer" x="2240" y="176" width="16" height="32"/>
+        <object id="197" name="flyer" x="912" y="192" width="16" height="32"/>
+        <object id="199" name="spike" x="1248" y="160" width="16" height="16"/>
+        <object id="200" name="spike" x="1488" y="112" width="16" height="16"/>
+        <object id="201" name="spike" x="2304" y="144" width="16" height="16"/>
+        <object id="221" name="staticshooter" x="2400" y="128" width="16" height="32"/>
+        <object id="222" name="house2" x="1600" y="128" width="144" height="128"/>
+        <object id="223" name="house1" x="2176" y="112" width="144" height="128"/>
+    </objectgroup>
+    <layer name="hazardLayer" width="200" height="20">
+        <data encoding="base64" compression="zlib">eJzt2DEKwCAMBdCMzf0v3LHQodIORtP3JkFFhXwCRgAAAAAAAADA+vLD+rd74I8y5IW5KmttdPbTvIwAwKW6n3fry93eAzPkbSxHdKCO9+RvDWBvR/UFYGEnZBkAxg==</data>
+    </layer>
+    <objectgroup name="colors">
+        <object id="2" name="color" x="0" y="288" width="336" height="32"/>
+        <object id="7" name="color" x="912" y="224" width="64" height="96"/>
+        <object id="8" name="color" x="800" y="192" width="80" height="144"/>
+        <object id="13" name="color" x="1184" y="96" width="128" height="64"/>
+        <object id="14" name="color" x="1376" y="160" width="64" height="32"/>
+        <object id="15" name="color" x="1408" y="80" width="96" height="32"/>
+        <object id="16" name="color" x="1440" y="192" width="32" height="32"/>
+        <object id="17" name="color" x="1472" y="224" width="32" height="32"/>
+        <object id="18" name="color" x="1504" y="256" width="32" height="32"/>
+        <object id="19" name="color" x="1728" y="176" width="64" height="48"/>
+        <object id="20" name="color" x="1568" y="256" width="192" height="32"/>
+        <object id="21" name="color" x="1984" y="240" width="144" height="80"/>
+        <object id="22" name="color" x="2176" y="256" width="48" height="64"/>
+        <object id="34" name="house1" x="1824" y="176" width="160" height="96"/>
+        <object id="40" name="tree2" x="816" y="160" width="32" height="32"/>
+        <object id="42" name="tree0" x="1200" y="64" width="32" height="32"/>
+        <object id="43" name="tree3" x="1744" y="144" width="32" height="32"/>
+        <object id="54" name="color" x="1056" y="192" width="64" height="64"/>
+        <object id="56" name="color" x="1008" y="240" width="96" height="96"/>
+        <object id="58" name="color" x="1744" y="272" width="128" height="48"/>
+        <object id="164" name="color" x="2336" y="192" width="48" height="128"/>
+        <object id="165" name="color" x="2288" y="224" width="80" height="96"/>
+        <object id="166" name="color" x="2480" y="160" width="32" height="64"/>
+        <object id="167" name="color" x="2608" y="160" width="32" height="32"/>
+        <object id="169" name="color" x="2816" y="160" width="48" height="160"/>
+        <object id="170" name="color" x="3056" y="192" width="144" height="128"/>
+        <object id="178" name="color" x="2736" y="160" width="32" height="64"/>
+        <object id="179" name="tree2" x="2480" y="128" width="32" height="32"/>
+        <object id="180" name="color" x="176" y="144" width="96" height="96"/>
+        <object id="181" name="color" x="400" y="256" width="64" height="80"/>
+        <object id="182" name="color" x="576" y="224" width="160" height="96"/>
+        <object id="183" name="color" x="464" y="288" width="80" height="32"/>
+        <object id="184" name="color" x="2960" y="192" width="48" height="128"/>
+        <object id="185" name="color" x="3008" y="160" width="48" height="160"/>
+        <object id="189" name="color" x="2256" y="256" width="32" height="32"/>
+        <object id="191" name="color" x="1296" y="208" width="80" height="112"/>
+        <object id="192" name="color" x="1376" y="192" width="48" height="128"/>
+        <object id="198" name="color" x="3056" y="176" width="48" height="16"/>
+        <object id="203" name="house1" x="160" y="16" width="144" height="128"/>
+        <object id="204" name="house2" x="400" y="128" width="144" height="128"/>
+        <object id="205" name="color" x="624" y="160" width="112" height="64"/>
+        <object id="206" name="color" x="768" y="240" width="32" height="80"/>
+        <object id="207" name="color" x="1152" y="224" width="48" height="32"/>
+        <object id="209" name="color" x="1184" y="240" width="112" height="80"/>
+        <object id="210" name="color" x="2224" y="224" width="32" height="96"/>
+        <object id="211" name="color" x="2288" y="112" width="32" height="32"/>
+        <object id="212" name="color" x="2000" y="144" width="80" height="48"/>
+        <object id="213" name="color" x="2384" y="160" width="48" height="160"/>
+        <object id="214" name="color" x="2544" y="160" width="32" height="48"/>
+        <object id="215" name="color" x="2672" y="160" width="32" height="48"/>
+        <object id="216" name="color" x="2864" y="192" width="48" height="128"/>
+        <object id="225" name="color" x="1904" y="272" width="32" height="48"/>
+        <object id="226" name="tree3" x="1248" y="64" width="32" height="32"/>
+        <object id="227" name="tree1" x="2608" y="128" width="32" height="32"/>
+    </objectgroup>
+    <objectgroup name="background">
+        <object id="217" name="color" x="912" y="48" width="224" height="80"/>
+        <object id="218" name="color" x="1936" y="32" width="224" height="80"/>
+        <object id="219" name="color" x="2480" y="256" width="288" height="48"/>
+    </objectgroup>
+</map>

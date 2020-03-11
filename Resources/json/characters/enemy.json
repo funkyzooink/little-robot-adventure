@@ -1,0 +1,170 @@
+{
+    "walker": {
+        "x_speed": 5,
+        "flip_animation_x": true,
+        "animations": {
+            "idle_left": [
+                "walker/walk-1.png",
+                "walker/walk-2.png"
+            ],
+            "idle_right": [
+                "walker/walk-1.png",
+                "walker/walk-2.png"
+            ],
+            "walk_left": [
+                "walker/walk-1.png",
+                "walker/walk-2.png",
+                "walker/walk-3.png",
+                "walker/walk-2.png"
+            ],
+            "walk_right": [
+                "walker/walk-1.png",
+                "walker/walk-2.png",
+                "walker/walk-3.png",
+                "walker/walk-2.png"
+            ]
+        }
+    },
+    "jumper": {
+        "x_speed": 5,
+        "y_speed": 3.5,
+        "can_jump": true,
+        "flip_animation_x": true,
+        "animations": {
+            "idle_left": [
+                "jumper/walk-1.png",
+                "jumper/walk-2.png"
+            ],
+            "idle_right": [
+                "jumper/walk-1.png",
+                "jumper/walk-2.png"
+            ],
+            "jump_left_down": [
+                "jumper/jump-down.png"
+            ],
+            "jump_left_up": [
+                "jumper/jump-up.png"
+            ],
+            "jump_right_down": [
+                "jumper/jump-down.png"
+            ],
+            "jump_right_up": [
+                "jumper/jump-up.png"
+            ],
+            "walk_left": [
+                "jumper/walk-1.png",
+                "jumper/walk-2.png",
+                "jumper/walk-3.png",
+                "jumper/walk-2.png"
+            ],
+            "walk_right": [
+                "jumper/walk-1.png",
+                "jumper/walk-2.png",
+                "jumper/walk-3.png",
+                "jumper/walk-2.png"
+            ]
+        }
+    },
+    "flyer": {
+        "x_speed": 5,
+        "can_fly": true,
+        "audio": "flyer",
+        "animations": {
+            "idle_left": [
+                "flyer/idle-left-1.png",
+                "flyer/idle-left-2.png"
+            ],
+            "idle_right": [
+                "flyer/idle-right-1.png",
+                "flyer/idle-right-2.png"
+            ],
+            "walk_left": [
+                "flyer/walk-left-1.png",
+                "flyer/walk-left-2.png",
+                "flyer/walk-left-3.png",
+                "flyer/walk-left-4.png"
+            ],
+            "walk_right": [
+                "flyer/walk-right-1.png",
+                "flyer/walk-right-2.png",
+                "flyer/walk-right-3.png",
+                "flyer/walk-right-4.png"
+            ]
+        }
+    },
+    "drunkflyer": {
+        "x_speed": 0.3,
+        "y_speed": 0.03,
+        "can_fly": true,
+        "audio": "flyer",
+        "animations": {
+            "idle_left": [
+                "drunkflyer/idle-left-1.png",
+                "drunkflyer/idle-left-2.png"
+            ],
+            "idle_right": [
+                "drunkflyer/idle-right-1.png",
+                "drunkflyer/idle-right-2.png"
+            ],
+            "walk_left": [
+                "drunkflyer/walk-left-1.png",
+                "drunkflyer/walk-left-2.png",
+                "drunkflyer/walk-left-3.png",
+                "drunkflyer/walk-left-4.png"
+            ],
+            "walk_right": [
+                "drunkflyer/walk-right-1.png",
+                "drunkflyer/walk-right-2.png",
+                "drunkflyer/walk-right-3.png",
+                "drunkflyer/walk-right-4.png"
+            ]
+        }
+    },
+    "shooter": {
+        "x_speed": 5,
+        "bullet_life_time": 100,
+        "bullet_type": [
+            "bullet"
+        ],
+        "flip_animation_x": true,
+        "animations": {
+            "idle_left": [
+                "shooter/walk-1.png",
+                "shooter/walk-2.png"
+            ],
+            "idle_right": [
+                "shooter/walk-1.png",
+                "shooter/walk-2.png"
+            ],
+            "walk_left": [
+                "shooter/walk-1.png",
+                "shooter/walk-2.png",
+                "shooter/walk-3.png",
+                "shooter/walk-2.png"
+            ],
+            "walk_right": [
+                "shooter/walk-1.png",
+                "shooter/walk-2.png",
+                "shooter/walk-3.png",
+                "shooter/walk-2.png"
+            ]
+        }
+    },
+    "staticshooter": {
+        "can_move": false,
+        "bullet_type": [
+            "bullet"
+        ],
+        "flip_animation_x": true,
+        "animations": {
+            "idle_left": [
+                "staticshooter/idle1.png",
+                "staticshooter/idle2.png"
+            ],
+            "idle_right": [
+                "staticshooter/idle1.png",
+                "staticshooter/idle2.png"
+            ]
+        }
+    }
+}

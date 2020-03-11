@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.2.4" orientation="orthogonal" renderorder="right-down" width="120" height="20" tilewidth="64" tileheight="64" infinite="0" nextlayerid="6" nextobjectid="57">
+ <tileset firstgid="1" name="worlds" tilewidth="64" tileheight="64" spacing="16" margin="8" tilecount="9" columns="9">
+  <image source="tiles.png" width="720" height="80"/>
+ </tileset>
+ <layer id="1" name="tileLayer" width="120" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztmNsKgCAQBe3e/39xvQQiu2tZZtoMnJdAsx1XSOcAAAAAAADqotvTBxmKrgieZBWeja+vAnKB37YIz2P8tkXoE79tgd+2iJ3H+K2bmE/8piP9W779j4nffEi1O8h1r3D1PNb8avvyTP5yP2L5XfbMQSZ3v+ev+szRvyX636rb3b2ozW351WqQMsYaX8pvar2/Et+75kTqUb9XJbS5ztRrEMaX8mt9ew3x/WhOUuqk1cXqa/99X/G7AUi1BFE=
+  </data>
+ </layer>
+ <objectgroup id="5" name="infoObjects">
+  <object id="54" name="tutorial1" x="192" y="768" width="64" height="64"/>
+  <object id="55" name="tutorial2" x="1536" y="576" width="64" height="64"/>
+  <object id="56" name="tutorial3" x="3520" y="512" width="64" height="64"/>
+ </objectgroup>
+ <objectgroup name="gameObjects">
+  <object id="1" name="player" x="128" y="1024" width="64" height="128"/>
+  <object id="53" name="exit" x="7552" y="768" width="128" height="192"/>
+ </objectgroup>
+ <layer id="3" name="hazardLayer" width="120" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztzDEBAAAMAiAP+2e2xL5BABIAAAAAAAAAAIB/enAMJpAABQ==
+  </data>
+ </layer>
+ <objectgroup id="4" name="colors">
+  <object id="2" name="color" x="0" y="1152" width="3136" height="128"/>
+  <object id="3" name="color" x="1792" y="1088" width="960" height="64"/>
+  <object id="7" name="color" x="3264" y="1088" width="448" height="192"/>
+  <object id="8" name="color" x="3648" y="896" width="512" height="320"/>
+  <object id="9" name="color" x="4096" y="960" width="384" height="128"/>
+  <object id="10" name="color" x="4480" y="1024" width="512" height="256"/>
+  <object id="12" name="color" x="4864" y="1152" width="640" height="192"/>
+  <object id="30" name="pixelwall2" x="1984" y="576" width="1152" height="576"/>
+  <object id="32" name="pixelwall2" x="3712" y="832" width="960" height="256"/>
+  <object id="38" name="treeshape" x="512" y="896" width="768" height="256"/>
+  <object id="39" name="treeshape" x="1280" y="832" width="704" height="256"/>
+  <object id="40" name="treeshape2" x="3264" y="704" width="960" height="384"/>
+  <object id="41" name="treeshape2" x="4480" y="640" width="960" height="384"/>
+  <object id="47" name="color" x="5504" y="960" width="256" height="320"/>
+  <object id="48" name="color" x="5760" y="768" width="256" height="512"/>
+  <object id="49" name="color" x="6016" y="576" width="256" height="704"/>
+  <object id="50" name="color" x="6272" y="384" width="384" height="896"/>
+  <object id="51" name="color" x="6656" y="960" width="1024" height="320"/>
+ </objectgroup>
+</map>

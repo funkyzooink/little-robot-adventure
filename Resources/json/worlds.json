@@ -1,0 +1,179 @@
+{
+    "Grey Shapes": {
+        "level_select_icon": "world_1.png",
+        "audio": "audio/music_world0",
+        "sprites": {
+            "sprite_sheets": [
+                "bg1.plist",
+                "tiles.plist"
+            ],
+            "parallax_sprites": [
+                "bg1_layer_2.png"
+            ],
+            "parallax_ratio": [
+                0.05
+            ],
+            "colors": [
+                "FFFFFFFF",
+                "000000FF",
+                "3A3A3AFF",
+                "000000FF"
+            ]
+        },
+        "levels": {
+            "Level 1": {
+                "tilemap": "tilemap-w0l0.tmx",
+                "level_select_icon": "level_00.png"
+            },
+            "Level 2": {
+                "tilemap": "tilemap-w0l1.tmx",
+                "level_select_icon": "level_01.png"
+            },
+            "Level 3": {
+                "tilemap": "tilemap-w0l2.tmx",
+                "level_select_icon": "level_02.png"
+            },
+            "Level 4": {
+                "tilemap": "tilemap-w0l3.tmx",
+                "level_select_icon": "level_03.png"
+            },
+            "Level 5": {
+                "tilemap": "tilemap-w0l4.tmx",
+                "level_select_icon": "level_04.png"
+            }
+        }
+    },
+    "Red Rocks": {
+        "level_select_icon": "world_2.png",
+        "audio": "audio/music_world1",
+        "sprites": {
+            "sprite_sheets": [
+                "bg2.plist",
+                "tiles.plist"
+            ],
+            "parallax_sprites": [
+                "bg2_layer_2.png"
+            ],
+            "parallax_ratio": [
+                0.05
+            ],
+            "colors": [
+                "C54D57FF",
+                "C01F1FFF",
+                "3A3A3AFF",
+                "000000FF"
+            ]
+        },
+        "levels": {
+            "Level 1": {
+                "tilemap": "tilemap-w1l0.tmx",
+                "level_select_icon": "level_10.png"
+            },
+            "Level 2": {
+                "tilemap": "tilemap-w1l1.tmx",
+                "level_select_icon": "level_11.png"
+            },
+            "Level 3": {
+                "tilemap": "tilemap-w1l2.tmx",
+                "level_select_icon": "level_12.png"
+            },
+            "Level 4": {
+                "tilemap": "tilemap-w1l3.tmx",
+                "level_select_icon": "level_13.png"
+            },
+            "Level 5": {
+                "tilemap": "tilemap-w1l4.tmx",
+                "level_select_icon": "level_14.png"
+            }
+        }
+    },
+    "Green Plants": {
+        "level_select_icon": "world_3.png",
+        "audio": "audio/music_world2",
+        "sprites": {
+            "sprite_sheets": [
+                "bg3.plist",
+                "tiles.plist"
+            ],
+            "parallax_sprites": [
+                "bg3_layer_2.png"
+            ],
+            "parallax_ratio": [
+                0.05
+            ],
+            "colors": [
+                "C8F463FF",
+                "3F6E3AFF",
+                "FFD9BAFF",
+                "A2DEDEFF"
+            ]
+        },
+        "levels": {
+            "Level 1": {
+                "tilemap": "tilemap-w2l0.tmx",
+                "level_select_icon": "level_20.png"
+            },
+            "Level 2": {
+                "tilemap": "tilemap-w2l1.tmx",
+                "level_select_icon": "level_21.png"
+            },
+            "Level 3": {
+                "tilemap": "tilemap-w2l2.tmx",
+                "level_select_icon": "level_22.png"
+            },
+            "Level 4": {
+                "tilemap": "tilemap-w2l3.tmx",
+                "level_select_icon": "level_23.png"
+            },
+            "Level 5": {
+                "tilemap": "tilemap-w2l4.tmx",
+                "level_select_icon": "level_24.png"
+            }
+        }
+    },
+    "Blue Lights": {
+        "level_select_icon": "world_4.png",
+        "audio": "audio/music_world3",
+        "sprites": {
+            "sprite_sheets": [
+                "bg4.plist",
+                "tiles.plist"
+            ],
+            "parallax_sprites": [
+                "bg4_layer_2.png"
+            ],
+            "parallax_ratio": [
+                0.05
+            ],
+            "colors": [
+                "5879B6FF",
+                "819FD5FF",
+                "FFF8D9FF",
+                "ACC2EBFF"
+            ]
+        },
+        "levels": {
+            "Level 1": {
+                "tilemap": "tilemap-w3l0.tmx",
+                "level_select_icon": "level_30.png"
+            },
+            "Level 2": {
+                "tilemap": "tilemap-w3l1.tmx",
+                "level_select_icon": "level_31.png"
+            },
+            "Level 3": {
+                "tilemap": "tilemap-w3l2.tmx",
+                "level_select_icon": "level_32.png"
+            },
+            "Level 4": {
+                "tilemap": "tilemap-w3l3.tmx",
+                "level_select_icon": "level_33.png"
+            },
+            "Level 5": {
+                "tilemap": "tilemap-w3l4.tmx",
+                "level_select_icon": "level_34.png",
+                "particle": "rain"
+            }
+        }
+    }
+}

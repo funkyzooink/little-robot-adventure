@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="120" height="20" tilewidth="32" tileheight="32" nextobjectid="54">
+ <tileset firstgid="1" name="worlds" tilewidth="32" tileheight="32" spacing="8" margin="4">
+  <image source="tiles.png" width="320" height="40"/>
+ </tileset>
+ <layer name="tileLayer" width="120" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztmNsKgCAQBe3e/39xvQQiu2tZZtoMnJdAsx1XSOcAAAAAAADqotvTBxmKrgieZBWeja+vAnKB37YIz2P8tkXoE79tgd+2iJ3H+K2bmE/8piP9W779j4nffEi1O8h1r3D1PNb8avvyTP5yP2L5XfbMQSZ3v+ev+szRvyX636rb3b2ozW351WqQMsYaX8pvar2/Et+75kTqUb9XJbS5ztRrEMaX8mt9ew3x/WhOUuqk1cXqa/99X/G7AUi1BFE=
+  </data>
+ </layer>
+ <objectgroup name="gameObjects">
+  <object id="1" name="player" x="64" y="512" width="32" height="64"/>
+  <object id="53" name="exit" x="3776" y="384" width="64" height="96"/>
+ </objectgroup>
+ <layer name="hazardLayer" width="120" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztzDEBAAAMAiAP+2e2xL5BABIAAAAAAAAAAIB/enAMJpAABQ==
+  </data>
+ </layer>
+ <objectgroup name="colors">
+  <object id="2" name="color" x="0" y="576" width="1568" height="64"/>
+  <object id="3" name="color" x="896" y="544" width="480" height="32"/>
+  <object id="7" name="color" x="1632" y="544" width="224" height="96"/>
+  <object id="8" name="color" x="1824" y="448" width="256" height="160"/>
+  <object id="9" name="color" x="2048" y="480" width="192" height="64"/>
+  <object id="10" name="color" x="2240" y="512" width="256" height="128"/>
+  <object id="12" name="color" x="2432" y="576" width="320" height="96"/>
+  <object id="30" name="pixelwall2" x="992" y="288" width="576" height="288"/>
+  <object id="32" name="pixelwall2" x="1856" y="416" width="480" height="128"/>
+  <object id="38" name="treeshape" x="256" y="448" width="384" height="128"/>
+  <object id="39" name="treeshape" x="640" y="416" width="352" height="128"/>
+  <object id="40" name="treeshape2" x="1632" y="352" width="480" height="192"/>
+  <object id="41" name="treeshape2" x="2240" y="320" width="480" height="192"/>
+  <object id="47" name="color" x="2752" y="480" width="128" height="160"/>
+  <object id="48" name="color" x="2880" y="384" width="128" height="256"/>
+  <object id="49" name="color" x="3008" y="288" width="128" height="352"/>
+  <object id="50" name="color" x="3136" y="192" width="192" height="448"/>
+  <object id="51" name="color" x="3328" y="480" width="512" height="160"/>
+ </objectgroup>
+</map>

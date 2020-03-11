@@ -1,0 +1,6 @@
+{
+    "app_name": "Little Robot Adventure",
+    "ios_bundle_id": "de.funkyzoo.LittleRobotAdventure",
+    "android_bundle_id": "de.funkyzoo.LittleRobotAdventure",
+    "version_name": "2.0"
+}

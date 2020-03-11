@@ -1,0 +1,47 @@
+{
+    "player1": {
+        "id": 0,
+        "x_speed": 15,
+        "y_speed": 5,
+        "can_kill": "jump",
+        "flip_animation_x": true,
+        "animations": {
+            "idle_left": [
+                "player1/idle-1.png",
+                "player1/idle-2.png"
+            ],
+            "idle_right": [
+                "player1/idle-1.png",
+                "player1/idle-2.png"
+            ],
+            "jump_left_down": [
+                "player1/jump-down.png"
+            ],
+            "jump_left_up": [
+                "player1/jump-up.png"
+            ],
+            "jump_right_down": [
+                "player1/jump-down.png"
+            ],
+            "jump_right_up": [
+                "player1/jump-up.png"
+            ],
+            "walk_left": [
+                "player1/walk-1.png",
+                "player1/walk-2.png",
+                "player1/walk-3.png",
+                "player1/walk-4.png",
+                "player1/walk-5.png",
+                "player1/walk-6.png"
+            ],
+            "walk_right": [
+                "player1/walk-1.png",
+                "player1/walk-2.png",
+                "player1/walk-3.png",
+                "player1/walk-4.png",
+                "player1/walk-5.png",
+                "player1/walk-6.png"
+            ]
+        }
+    }
+}
