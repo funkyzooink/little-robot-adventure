@@ -19,16 +19,16 @@ class Sprite;
 
 class ColorPlugin
 {
-public:
-  static void initLayerColors(cocos2d::TMXTiledMap* tiledMap, int worldID, cocos2d::Node* cameraFollowNode,
-                              bool showItems);
-  static void initLayerBackground(cocos2d::TMXTiledMap* tiledMap, int worldID, cocos2d::Node* cameraFollowNode);
+  public:
+    static void initLayerColors(cocos2d::TMXTiledMap* tiledMap, int worldID, cocos2d::Node* cameraFollowNode,
+                                bool showItems);
+    static void initLayerBackground(cocos2d::TMXTiledMap* tiledMap, int worldID, cocos2d::Node* cameraFollowNode);
 
-private:
-  static void createPixelWall(cocos2d::Point position, cocos2d::Size size, cocos2d::Node* cameraFollowNode);
-  static cocos2d::Color4F colorHelper(cocos2d::Color4F start, cocos2d::Color4F end, float div);
-  static cocos2d::Sprite* spriteWithColor(cocos2d::Color4F bgColor, cocos2d::Color4F fgColor, float tWidth,
-                                          float tHeight, bool gradient);
+  private:
+    static void createPixelWall(cocos2d::Point position, cocos2d::Size size, cocos2d::Node* cameraFollowNode);
+    static cocos2d::Color4F colorHelper(cocos2d::Color4F start, cocos2d::Color4F end, float div);
+    static cocos2d::Sprite* spriteWithColor(cocos2d::Color4F bgColor, cocos2d::Color4F fgColor, float tWidth,
+                                            float tHeight, bool gradient);
 };
 
 #endif  // HELPERS_COLORPLUGIN_H_
